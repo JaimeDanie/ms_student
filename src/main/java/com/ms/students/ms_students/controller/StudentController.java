@@ -7,6 +7,7 @@ import com.ms.students.ms_students.entities.Student;
 import com.ms.students.ms_students.mappers.StudentMapper;
 import com.ms.students.ms_students.service.implementation.StudentServiceImpl;
 import jakarta.validation.Valid;
+import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -15,6 +16,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/student")
+@Slf4j
 public class StudentController {
 
     @Autowired
@@ -85,12 +87,14 @@ public class StudentController {
     }
 
     @PutMapping("/{id}")
-    public ResponseStudentDTO updateStudent(@PathVariable long id,@Valid @RequestBody RequestStudentDTO student){
+    public ResponseStudentDTO updateStudent(@PathVariable Long id,@Valid @RequestBody RequestStudentDTO student){
         ResponseStudentDTO response=  new ResponseStudentDTO();
+        log.info("ID==>"+id);
         Student studentFind= studentServiceImpl.getOne(id);
+        log.info("ESTUDIANTE ENCONTRADO==>"+studentFind);
         if(studentFind!=null){
             Student studentFindDocument= studentServiceImpl.getOneByDocument(studentFind.getDocument());
-            if(studentFindDocument==null){
+            if(studentFindDocument==null || (studentFindDocument.getId()==id)){
                 student.setId(id);
                 Student studentUpdate=studentServiceImpl.updateStudent(studentMapper.StudentDtoToStudent(student));
                 response.setStudent(studentUpdate);

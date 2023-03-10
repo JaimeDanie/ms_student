@@ -8,7 +8,7 @@ public interface IStudentService {
     public Student saveStudent( Student student);
     public Student updateStudent(Student student);
     public List<Student> getAll();
-    public Student getOne(long id);
+    public Student getOne(Long id);
     public Student getOneByDocument(String document);
 
     public int deleteOne(Student student);

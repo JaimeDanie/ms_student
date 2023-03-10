@@ -1,0 +1,11 @@
+C:\Users\jaime\Documents\PROYECTOS_JAVA\MICROSERVICIOS_ESPECIALIZACION\ms_student\src\main\java\com\ms\students\ms_students\dto\ResponseStudentDTO.java
+C:\Users\jaime\Documents\PROYECTOS_JAVA\MICROSERVICIOS_ESPECIALIZACION\ms_student\src\main\java\com\ms\students\ms_students\dto\ResponseListStudentDTO.java
+C:\Users\jaime\Documents\PROYECTOS_JAVA\MICROSERVICIOS_ESPECIALIZACION\ms_student\src\main\java\com\ms\students\ms_students\entities\Student.java
+C:\Users\jaime\Documents\PROYECTOS_JAVA\MICROSERVICIOS_ESPECIALIZACION\ms_student\src\main\java\com\ms\students\ms_students\repository\StudentRepository.java
+C:\Users\jaime\Documents\PROYECTOS_JAVA\MICROSERVICIOS_ESPECIALIZACION\ms_student\src\main\java\com\ms\students\ms_students\service\interfaces\IStudentService.java
+C:\Users\jaime\Documents\PROYECTOS_JAVA\MICROSERVICIOS_ESPECIALIZACION\ms_student\src\main\java\com\ms\students\ms_students\ModelMapperConfig.java
+C:\Users\jaime\Documents\PROYECTOS_JAVA\MICROSERVICIOS_ESPECIALIZACION\ms_student\src\main\java\com\ms\students\ms_students\service\implementation\StudentServiceImpl.java
+C:\Users\jaime\Documents\PROYECTOS_JAVA\MICROSERVICIOS_ESPECIALIZACION\ms_student\src\main\java\com\ms\students\ms_students\dto\RequestStudentDTO.java
+C:\Users\jaime\Documents\PROYECTOS_JAVA\MICROSERVICIOS_ESPECIALIZACION\ms_student\src\main\java\com\ms\students\ms_students\mappers\StudentMapper.java
+C:\Users\jaime\Documents\PROYECTOS_JAVA\MICROSERVICIOS_ESPECIALIZACION\ms_student\src\main\java\com\ms\students\ms_students\MsStudentsApplication.java
+C:\Users\jaime\Documents\PROYECTOS_JAVA\MICROSERVICIOS_ESPECIALIZACION\ms_student\src\main\java\com\ms\students\ms_students\controller\StudentController.java

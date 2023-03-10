@@ -30,7 +30,7 @@ public class StudentServiceImpl implements IStudentService {
     }
 
     @Override
-    public Student getOne(long id) {
+    public Student getOne(Long id) {
         return studentRepository.findById(id).orElse(null);
     }
 
